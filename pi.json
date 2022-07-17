@@ -38,9 +38,9 @@
     "description":  "manjaro-xfce-rpi4 16.0 for RPi4",
     "release_date": "2020-04-03",
     "supported_models": [
-        "Pi 4 Model B Rev"
+        "Pi 4"
     ],
-    "supports_usb_boot": false,
+    "supports_usb_boot": true,
     "supports_usb_root": true,
     "group":           "General",
     "download_size":    788536836,
@@ -103,6 +103,30 @@
                            "http://downloads.sourceforge.net/project/pinn/os/twister/twister.tar.xz"
         ],
         "nominal_size": 8275
+    }
+,
+    {
+    "os_name": "Lakka_RPi4_64",
+    "description": "The DIY retro emulation console",
+    "download_size": 443116980,
+    "group": "Games",
+    "icon": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Lakka_RPi4.png",
+    "marketing_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/marketing.tar",
+    "nominal_size": 2560,
+    "os_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/os.json",
+    "partition_setup": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partition_setup.sh",
+    "partitions_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partitions.json",
+    "release_date": "2021-10-24",
+    "version": "3.6",
+    "supported_models": [
+        "Pi 4"
+    ],
+    "supports_backup": true,
+    "tarballs": [
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/System.tar.xz",
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Storage.tar.xz"
+    ],
+    "url": "https://www.lakka.tv/"
     }
 ,
     {
