@@ -233,6 +233,35 @@
         "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
     ]
     }
-
+,
+    {
+            "os_name": "Windows 10 IoT Core",
+            "description": "Windows for devices. Enables you to build projects and apps.",
+            "feature_level": 0,
+            "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
+            "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
+            "nominal_size": 4910,
+            "os_info": "https://iottools.blob.core.windows.net/win10iotnoobs/os.json",
+            "partition_setup": "https://iottools.blob.core.windows.net/win10iotnoobs/partition_setup.sh",
+            "partitions_info": "https://iottools.blob.core.windows.net/win10iotnoobs/partitions.json",
+            "release_date": "2016-08-02",
+            "version": "10",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+                "Pi 4",
+            ],
+            "supports_usb_boot": "true",
+            "supports_usb_root": "true",
+            "tarballs": [
+                "",
+                "",
+                "https://iottools.blob.core.windows.net/win10iotnoobs/scratch.tar.xz",
+                "",
+                ""
+            ]
+        }
 ]
 }
