@@ -1,0 +1,22 @@
+{
+  "partitions": [
+    {
+      "label": "boot",
+      "filesystem_type": "FAT32",
+      "partition_size_nominal": 124,
+      "want_maximised": false,
+      "uncompressed_tarball_size": 15,
+      "empty_fs": true,
+      "requires_partition_number": 2
+    },
+    {
+      "label": "Win11",
+      "filesystem_type": "ntfs",
+      "partition_size_nominal": 20000,
+      "want_maximised": false,
+      "uncompressed_tarball_size": 1024,
+      "empty_fs": true,
+      "requires_partition_number": 3
+    }
+  ]
+}

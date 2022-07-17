@@ -1,0 +1,10 @@
+{
+    "name":	    "Windows 11",
+    "description":  "Windows 11.",
+    "icon": "ProjectSpace",
+    "group": "General",
+    "bootable": true,
+    "release_date": "2018-05-14"
+}
+
+
