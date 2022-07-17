@@ -1,6 +1,24 @@
 {
   "os_list" : [
     {
+    "description": "A port of Debian with no desktop environment",
+    "kernel": "5.15",
+    "name": "Raspberry Pi OS Lite (64-bit)",
+    "password": "raspberry",
+    "release_date": "2022-04-04",
+    "supported_models": [
+        "Pi Zero 2",
+        "Pi 3",
+        "Pi 4",
+        "Pi Compute Module 3",
+        "Pi Compute Module 4"
+    ],
+    "url": "http://www.raspbian.org/",
+    "username": "pi",
+    "version": "bullseye"
+    }
+,
+    {
         "os_name":	    "lineage19-rpi4-atv",
         "description":  "Lineage OS ATV (KonstaKANG) 19.0 for RPi4",
         "release_date": "2022-01-14",
