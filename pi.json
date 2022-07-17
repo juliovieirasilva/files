@@ -9,19 +9,16 @@
         "supports_usb_boot": true,
         "supports_usb_root": true,
         "group":           "General",
-        "feature_level": 0,
         "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
         "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
         "nominal_size": 20480,
         "os_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/os.json",
         "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/partitions.json",
-        "release_date": "2016-08-02",
-        "version": "10",
         "tarballs": [
             "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
             "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz"
         ],
-        }
+    }
 ,
     {
         "os_name":	    "lineage19-rpi4-atv",
@@ -153,6 +150,30 @@
     }
 ,
     {
+    "os_name": "Lakka_RPi4_64",
+    "description": "The DIY retro emulation console",
+    "download_size": 443116980,
+    "group": "Games",
+    "icon": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Lakka_RPi4.png",
+    "marketing_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/marketing.tar",
+    "nominal_size": 2560,
+    "os_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/os.json",
+    "partition_setup": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partition_setup.sh",
+    "partitions_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partitions.json",
+    "release_date": "2021-10-24",
+    "version": "3.6",
+    "supported_models": [
+        "Pi 4"
+    ],
+    "supports_backup": true,
+    "tarballs": [
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/System.tar.xz",
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Storage.tar.xz"
+    ],
+    "url": "https://www.lakka.tv/"
+    }
+,
+    {
     "os_name":	    "ProjectSpace",
     "description":  "A Project Space used to partition the SD card equally.",
     "release_date": "2018-05-14",
@@ -219,30 +240,6 @@
                        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
     ],
     "nominal_size": 600
-    }
-,
-    {
-    "os_name": "Lakka_RPi4_64",
-    "description": "The DIY retro emulation console",
-    "download_size": 443116980,
-    "group": "Games",
-    "icon": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Lakka_RPi4.png",
-    "marketing_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/marketing.tar",
-    "nominal_size": 2560,
-    "os_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/os.json",
-    "partition_setup": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partition_setup.sh",
-    "partitions_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partitions.json",
-    "release_date": "2021-10-24",
-    "version": "3.6",
-    "supported_models": [
-        "Pi 4"
-    ],
-    "supports_backup": true,
-    "tarballs": [
-        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/System.tar.xz",
-        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Storage.tar.xz"
-    ],
-    "url": "https://www.lakka.tv/"
     }
 ,
     {
