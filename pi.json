@@ -1,0 +1,214 @@
+{
+  "os_list" : [
+    {
+        "os_name":	    "lineage19-rpi4-atv",
+        "description":  "Lineage OS ATV (KonstaKANG) 19.0 for RPi4",
+        "release_date": "2022-01-14",
+        "feature_level": 0,
+        "supported_hex_revisions": "2082",
+        "supported_models": [
+            "Pi Compute Module 4",
+            "Pi 4"
+        ],
+        "supports_usb_boot":       false,
+        "supports_usb_root":       false,
+        "supports_sda_boot":       true,
+        "supports_sda_root":       true,
+        "version":                 "19.0",
+        "supports_backup": true,
+        "url":             "http://konstakang.com/devices/rpi4/",
+        "group":           "General",
+        "download_size":   401231816,
+        "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/os.json",
+        "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/partitions.json",
+        "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/lineage19-rpi4-atv.png",
+        "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/marketing.tar",
+        "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/partition_setup.sh",
+        "tarballs": [
+                           "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/boot.tar.xz",
+                           "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/system.img.xz",
+                           "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/vendor.img.xz",
+                           "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/userdata.tar.xz"
+        ],
+        "nominal_size": 6958
+    }
+,
+    {
+    "os_name":	    "manjaro-xfce-rpi4",
+    "description":  "manjaro-xfce-rpi4 16.0 for RPi4",
+    "release_date": "2020-04-03",
+    "supported_models": [
+        "Pi 4 Model B Rev"
+    ],
+    "supports_usb_boot": false,
+    "supports_usb_root": true,
+    "group":           "General",
+    "download_size":    788536836,
+    "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/os.json",
+    "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partitions.json",
+    "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/manjaro-xfce-rpi4.png",
+    "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/marketing.tar",
+    "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partition_setup.sh",
+    "tarballs": [
+                       "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/boot.tar.xz",
+                       "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/root.tar.xz"
+    ],
+    "nominal_size": 4371
+    }
+,
+    {
+    "os_name":	    "Retropie4",
+    "description":  "Retropie4 v4.7.1 gaming distro using Emulation Station for RPi4",
+    "release_date": "2020-11-04",
+    "feature_level": 0,
+    "supported_hex_revisions": "1040,1041,2082",
+    "supported_models": [
+        "Pi 4"
+    ],
+    "url":             "https://retropie.org.uk/",
+    "group":           "Games",
+    "download_size":   539674500,
+    "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Retropie4/os.json",
+    "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Retropie4/partitions.json",
+    "icon":            "http://downloads.sourceforge.net/project/pinn/os/Retropie4/Retropie4.png",
+    "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Retropie4/marketing.tar",
+    "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Retropie4/partition_setup.sh",
+    "tarballs": [
+                       "http://downloads.sourceforge.net/project/pinn/os/Retropie4/boot.tar.xz",
+                       "http://downloads.sourceforge.net/project/pinn/os/Retropie4/retropie.tar.xz"
+    ],
+    "nominal_size": 2858
+    }
+,
+    {
+        "os_name":	    "twister",
+        "description":  "A themed Raspberry Pi OS Desktop merged with gaming v2.1.2",
+        "release_date": "2021-06-22",
+        "supported_models": [
+            "Pi 3",
+            "Pi Zero 2",
+            "Pi Compute Module 3",
+            "Pi 4"
+        ],
+        "url":             "https://twisteros.com/",
+        "group":           "General",
+        "download_size":   2216570420,
+        "os_info":         "http://downloads.sourceforge.net/project/pinn/os/twister/os.json",
+        "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/twister/partitions.json",
+        "icon":            "http://downloads.sourceforge.net/project/pinn/os/twister/twister.png",
+        "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/twister/marketing.tar",
+        "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/twister/partition_setup.sh",
+        "tarballs": [
+                           "http://downloads.sourceforge.net/project/pinn/os/twister/boot.tar.xz",
+                           "http://downloads.sourceforge.net/project/pinn/os/twister/twister.tar.xz"
+        ],
+        "nominal_size": 8275
+    }
+,
+    {
+    "os_name":	    "ProjectSpace",
+    "description":  "A Project Space used to partition the SD card equally.",
+    "release_date": "2018-05-14",
+    "feature_level": 0,
+    "group":         "Utility",
+    "supported_hex_revisions": "1040,1041,2082",
+    "supported_models": [
+        "Pi Zero",
+        "Pi Model",
+        "Pi Compute Module",
+        "Pi 2",
+        "Pi 3",
+        "Pi 4"
+    ],
+    "url":             "https://github.com/procount/pinn/blob/master/README_PINN.md#project-spaces",
+    "flavours": [
+      {
+        "name": "ProjectSpace - 1",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 2",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 3",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 4",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 5",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 6",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 7",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      },
+      {
+        "name": "ProjectSpace - 8",
+        "description": "A Project Space to partition the SD card equally",
+        "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+      }
+    ],
+    "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+    "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
+    "icon":            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png",
+    "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+    "tarballs": [
+                       "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+                       "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
+    ],
+    "nominal_size": 600
+    }
+,
+    {
+    "os_name": "Lakka_RPi4_64",
+    "description": "The DIY retro emulation console",
+    "download_size": 443116980,
+    "group": "Games",
+    "icon": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Lakka_RPi4.png",
+    "marketing_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/marketing.tar",
+    "nominal_size": 2560,
+    "os_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/os.json",
+    "partition_setup": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partition_setup.sh",
+    "partitions_info": "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/partitions.json",
+    "release_date": "2021-10-24",
+    "version": "3.6",
+    "supported_models": [
+        "Pi 4"
+    ],
+    "supports_backup": true,
+    "tarballs": [
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/System.tar.xz",
+        "https://le.builds.lakka.tv/noobs/Lakka_RPi4_64/Storage.tar.xz"
+    ],
+    "url": "https://www.lakka.tv/"
+    }
+,
+    {
+    "os_name": "Data Partition",
+    "description": "Adds an empty 800GB ext4 format partition to the partition layout.",
+    "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+    "nominal_size": 819200,
+    "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+    "partitions_info": "http://downloads.raspberrypi.org/data_partition/partitions.json",
+    "tarballs": [
+        "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
+    ]
+    }
+
+]
+}
