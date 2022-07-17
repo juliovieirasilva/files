@@ -1,0 +1,35 @@
+{
+  "os_list" : [
+    {
+        "os_name":	    "Windows 11",
+        "description":  "windows for RPi4",
+        "supported_models": [
+            "Pi 4"
+        ],
+        "supports_usb_boot": true,
+        "supports_usb_root": true,
+        "group":           "General",
+        "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
+        "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
+        "nominal_size": 20480,
+        "os_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/os.json",
+        "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/partitions.json",
+        "tarballs": [
+            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz"
+        ],
+    }
+,
+    {
+    "os_name": "Data Partition",
+    "description": "Adds an empty 800GB ext4 format partition to the partition layout.",
+    "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+    "nominal_size": 819200,
+    "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+    "partitions_info": "http://downloads.raspberrypi.org/data_partition/partitions.json",
+    "tarballs": [
+        "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
+    ],
+    }
+]
+}
