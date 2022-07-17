@@ -1,22 +1,27 @@
 {
   "os_list" : [
     {
-    "description": "A port of Debian with no desktop environment",
-    "kernel": "5.15",
-    "name": "Raspberry Pi OS Lite (64-bit)",
-    "password": "raspberry",
-    "release_date": "2022-04-04",
-    "supported_models": [
-        "Pi Zero 2",
-        "Pi 3",
-        "Pi 4",
-        "Pi Compute Module 3",
-        "Pi Compute Module 4"
-    ],
-    "url": "http://www.raspbian.org/",
-    "username": "pi",
-    "version": "bullseye"
-    }
+        "os_name":	    "Windows 11",
+        "description":  "windows for RPi4",
+        "supported_models": [
+            "Pi 4"
+        ],
+        "supports_usb_boot": true,
+        "supports_usb_root": true,
+        "group":           "General",
+        "feature_level": 0,
+        "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
+        "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
+        "nominal_size": 20480,
+        "os_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/os.json",
+        "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/partitions.json",
+        "release_date": "2016-08-02",
+        "version": "10",
+        "tarballs": [
+            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz"
+        ],
+        }
 ,
     {
         "os_name":	    "lineage19-rpi4-atv",
@@ -251,35 +256,5 @@
         "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
     ]
     }
-,
-    {
-            "os_name": "Windows 10 IoT Core",
-            "description": "Windows for devices. Enables you to build projects and apps.",
-            "feature_level": 0,
-            "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
-            "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
-            "nominal_size": 4910,
-            "os_info": "https://iottools.blob.core.windows.net/win10iotnoobs/os.json",
-            "partition_setup": "https://iottools.blob.core.windows.net/win10iotnoobs/partition_setup.sh",
-            "partitions_info": "https://iottools.blob.core.windows.net/win10iotnoobs/partitions.json",
-            "release_date": "2016-08-02",
-            "version": "10",
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi 2",
-                "Pi 3",
-                "Pi Compute Module 3"
-                "Pi 4",
-            ],
-            "supports_usb_boot": "true",
-            "supports_usb_root": "true",
-            "tarballs": [
-                "",
-                "",
-                "https://iottools.blob.core.windows.net/win10iotnoobs/scratch.tar.xz",
-                "",
-                ""
-            ]
-        }
 ]
 }
