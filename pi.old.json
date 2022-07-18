@@ -251,7 +251,7 @@
     "partitions_info": "http://downloads.raspberrypi.org/data_partition/partitions.json",
     "tarballs": [
         "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
-    ],
+    ]
     }
 ]
 }
