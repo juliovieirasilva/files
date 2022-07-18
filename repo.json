@@ -1,13 +1,13 @@
 {
 	"repo_list" : [
 		{
-			"name" : "Juh",
-			"url"  : "http://raw.githubusercontent.com/juliovieirasilva/files/main/pi.json"
-		},
-		{
 			"name" : "NOOBS",
 			"urlnew"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_noobs.json",
 			"url"  : "http://downloads.raspberrypi.org/os_list_v3.json"
+		},
+				{
+			"name" : "JUH",
+			"url"  : "http://raw.githubusercontent.com/juliovieirasilva/files/main/pi.json"
 		},
 		{
 			"name" : "PINN",
@@ -35,4 +35,3 @@
 		}
 	]
 }
-
