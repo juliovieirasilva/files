@@ -47,7 +47,7 @@
             "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
             "nominal_size": 737280,
             "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
-            "partitions_info": "https://raw.githubusercontent.com/juliovieirasilva/files/main/partitions.json",
+            "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/partitions.json",
             "tarballs": [
                 "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
             ]
