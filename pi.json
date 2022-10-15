@@ -42,12 +42,12 @@
             "nominal_size": 4371
         },
         {
-            "os_name": "800 Gb Data Partition",
+            "os_name": "720 Gb Data Partition",
             "description": "Adds an empty 800GB ext4 format partition to the partition layout.",
             "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
-            "nominal_size": 819200,
+            "nominal_size": 737280,
             "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
-            "partitions_info": "http://downloads.raspberrypi.org/data_partition/partitions.json",
+            "partitions_info": "https://raw.githubusercontent.com/juliovieirasilva/files/main/partitions.json",
             "tarballs": [
                 "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
             ]
