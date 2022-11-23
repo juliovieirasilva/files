@@ -5,7 +5,7 @@
 			"urlnew"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_noobs.json",
 			"url"  : "http://downloads.raspberrypi.org/os_list_v3.json"
 		},
-				{
+						{
 			"name" : "JUH",
 			"url"  : "http://raw.githubusercontent.com/juliovieirasilva/files/main/pi.json"
 		},
@@ -32,6 +32,11 @@
 		{
 			"name" : "Recalbox",
 			"url"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_recalbox7.json"
+		},
+		{
+			"name" : "Retropie48",
+			"url"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_retropie48.json"
 		}
+
 	]
 }
