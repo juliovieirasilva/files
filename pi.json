@@ -20,30 +20,8 @@
             ]
         },
         {
-            "os_name":	    "manjaro-xfce-rpi4",
-            "description":  "manjaro-xfce-rpi4 16.0 for RPi4",
-            "release_date": "2020-04-03",
-            "supported_models": [
-                "Pi 4 Model B Rev"
-            ],
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "group":           "General",
-            "download_size":    788536836,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/manjaro-xfce-rpi4.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/root.tar.xz"
-            ],
-            "nominal_size": 4371
-        },
-        {
             "os_name": "720 Gb Data Partition",
-            "description": "Adds an empty 800GB ext4 format partition to the partition layout.",
+            "description": "Adds an empty 720GB ext4 format partition to the partition layout.",
             "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
             "nominal_size": 737280,
             "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
