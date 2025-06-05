@@ -9,7 +9,7 @@
       "uncompressed_tarball_size": 1
     },
     {
-      "label": "data_fat",
+      "label": "data",
       "filesystem_type": "ext4",
       "partition_size_nominal": 256280,
       "want_maximised": false,
