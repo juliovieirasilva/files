@@ -3,7 +3,15 @@
     {
       "label": "data",
       "filesystem_type": "ext4",
-      "partition_size_nominal": 737280,
+      "partition_size_nominal": 481280,
+      "want_maximised": false,
+      "mkfs_options": "",
+      "uncompressed_tarball_size": 1
+    },
+    {
+      "label": "data_fat",
+      "filesystem_type": "fat",
+      "partition_size_nominal": 256280,
       "want_maximised": false,
       "mkfs_options": "",
       "uncompressed_tarball_size": 1
