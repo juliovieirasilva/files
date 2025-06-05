@@ -20,12 +20,23 @@
             ]
         },
         {
-            "os_name": "720 Gb Data Partition",
+            "os_name": "512 Gb Data Partition",
             "description": "Adds an empty 720GB ext4 format partition to the partition layout.",
             "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
-            "nominal_size": 737280,
+            "nominal_size": 524288,
             "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
             "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/partitions.json",
+            "tarballs": [
+                "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
+            ]
+        },
+        {
+            "os_name": "256 Gb Data Partition",
+            "description": "Adds an empty 256GB ext4 format partition to the partition layout.",
+            "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+            "nominal_size": 262144,
+            "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/partitions_256.json",
             "tarballs": [
                 "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
             ]
