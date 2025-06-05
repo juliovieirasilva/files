@@ -10,7 +10,7 @@
     },
     {
       "label": "data_fat",
-      "filesystem_type": "fat",
+      "filesystem_type": "ext4",
       "partition_size_nominal": 256280,
       "want_maximised": false,
       "mkfs_options": "",
