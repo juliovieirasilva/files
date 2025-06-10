@@ -8,7 +8,7 @@
       "uncompressed_tarball_size": 27
     },
     {
-      "label": "data",
+      "label": "tizen-headed-aarch64/tizen-9.0-unified_20241030.071206_tizen-headed-aarch64",
       "filesystem_type": "ext4",
       "partition_size_nominal": 1110,
       "want_maximised": false,
