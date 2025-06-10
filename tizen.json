@@ -5,8 +5,7 @@
       "filesystem_type": "FAT",
       "partition_size_nominal": 127,
       "want_maximised": false,
-      "uncompressed_tarball_size": 27,
-      "sha512sum" : "786b6ddf7fa51d963ae7eea0c78c6765d9d1befd79562e168eebd9b1d33302389fd2cdd37ba4b9290b65a66e14d28a8e2ee0c5696691674a0241c7b341f78731"
+      "uncompressed_tarball_size": 27
     },
     {
       "label": "hal",
@@ -14,8 +13,7 @@
       "partition_size_nominal": 1110,
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 767,
-      "sha512sum" : "d9c1de9c2c8367ea521c30cd2976e51e30cb265eb24c9d20fa00a4c634e62991bc9e88c492fd801e22eeba94fcce4088a72d763fcc5189404e72b5286637c6cd"
+      "uncompressed_tarball_size": 767
     },
     {
       "label": "modules",
@@ -23,8 +21,7 @@
       "partition_size_nominal": 248,
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 21,
-      "sha512sum" : "feeecfa6321479aef779115005b79c2c03c1a834ee49640edfacfda6bd671d64b78408e84c3724ac498137aaa26d6855290fe9bc54e6ecc9687f873002a3eea2"
+      "uncompressed_tarball_size": 21
     },
     {
       "label": "system-data",
@@ -32,8 +29,7 @@
       "partition_size_nominal": 2581,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 8,
-      "sha512sum" : "81b39c315f7600a15e35699666ae91818161f8508b2613589cb605b1b280645b94dd34426529f013ee556aeffbd27648e9c54de27062f017a25aff1652ed4882"
+      "uncompressed_tarball_size": 8
     },
     {
       "label": "ramdisk",
@@ -41,8 +37,7 @@
       "partition_size_nominal": 2581,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 8,
-      "sha512sum" : "81b39c315f7600a15e35699666ae91818161f8508b2613589cb605b1b280645b94dd34426529f013ee556aeffbd27648e9c54de27062f017a25aff1652ed4882"
+      "uncompressed_tarball_size": 8
     },
     {
       "label": "rootfs",
@@ -50,8 +45,7 @@
       "partition_size_nominal": 2581,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 8,
-      "sha512sum" : "81b39c315f7600a15e35699666ae91818161f8508b2613589cb605b1b280645b94dd34426529f013ee556aeffbd27648e9c54de27062f017a25aff1652ed4882"
+      "uncompressed_tarball_size": 8
     },
     {
       "label": "ramdisk-recovery",
@@ -59,8 +53,7 @@
       "partition_size_nominal": 2581,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 8,
-      "sha512sum" : "81b39c315f7600a15e35699666ae91818161f8508b2613589cb605b1b280645b94dd34426529f013ee556aeffbd27648e9c54de27062f017a25aff1652ed4882"
+      "uncompressed_tarball_size": 8
     }
     
   ]
