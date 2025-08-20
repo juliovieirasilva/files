@@ -2,7 +2,7 @@
   "partitions": [
     {
       "label": "data",
-      "filesystem_type": "ext4",
+      "filesystem_type": "vfat",
       "partition_size_nominal": 262144,
       "want_maximised": false,
       "mkfs_options": "",
