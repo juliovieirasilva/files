@@ -1,36 +1,36 @@
 {
     "os_list": [
-        {
-            "os_name":	    "Windows 11",
-            "description":  "windows for RPi4",
-            "supported_models": [
-                "Pi 4"
-            ],
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "group":           "General",
-            "icon": "http://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
-            "marketing_info": "http://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
-            "nominal_size": 20480,
-            "os_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/partitions.json",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz"
-            ]
-        },
-        {
-            "os_name": "Tizen 9",
-            "description": "Samsung Tizen 9",
-            "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
-            "nominal_size": 15360,
-            "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/tizen.json",
-            "tarballs": [
-                "https://download.tizen.org/releases/milestone/TIZEN/Tizen-9.0/Tizen-9.0-Unified/tizen-9.0-unified_20241030.071206/images/standard/tizen-boot-arm64-rpi4/tizen-9.0-unified_20241030.071206_tizen-boot-arm64-rpi4.tar.gz",
-                "https://download.tizen.org/releases/milestone/TIZEN/Tizen-9.0/Tizen-9.0-Unified/tizen-9.0-unified_20241030.071206/images/standard/tizen-headed-aarch64/tizen-9.0-unified_20241030.071206_tizen-headed-aarch64.tar.gz"
-            ]
-        },
+        // {
+        //    "os_name":	    "Windows 11",
+        //    "description":  "windows for RPi4",
+        //    "supported_models": [
+        //        "Pi 4"
+        //    ],
+        //    "supports_usb_boot": true,
+        //    "supports_usb_root": true,
+        //    "group":           "General",
+        //    "icon": "http://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
+        //    "marketing_info": "http://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
+        //    "nominal_size": 20480,
+        //    "os_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/os.json",
+        //    "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/win11/partitions.json",
+        //    "tarballs": [
+        //        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+        //        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz"
+        //    ]
+        //},
+        //{
+        //    "os_name": "Tizen 9",
+        //    "description": "Samsung Tizen 9",
+        //    "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+        //    "nominal_size": 15360,
+        //    "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+        //    "partitions_info": "http://raw.githubusercontent.com/juliovieirasilva/files/main/tizen.json",
+        //    "tarballs": [
+        //        "https://download.tizen.org/releases/milestone/TIZEN/Tizen-9.0/Tizen-9.0-Unified/tizen-9.0-unified_20241030.071206/images/standard/tizen-boot-arm64-rpi4/tizen-9.0-unified_20241030.071206_tizen-boot-arm64-rpi4.tar.gz",
+        //        "https://download.tizen.org/releases/milestone/TIZEN/Tizen-9.0/Tizen-9.0-Unified/tizen-9.0-unified_20241030.071206/images/standard/tizen-headed-aarch64/tizen-9.0-unified_20241030.071206_tizen-headed-aarch64.tar.gz"
+        //    ]
+        //},
         {
             "os_name": "512 Gb Data Partition",
             "description": "Adds an empty 720GB ext4 format partition to the partition layout.",
